@@ -4,10 +4,23 @@ const initialState = {
     currentAccount: {
         id: 1,
         username: "hsynhcglu",
-        fullname: "Huseyin",
-        avatar: "https://avatars.githubusercontent.com/u/1961952?v=4",
+        fullname: "Huseyin Hacıoğlu",
+        avatar: "https://avatars.githubusercontent.com/u/32619394?v=4",
     },
-    accounts: [],
+    accounts: [
+        {
+            id: 1,
+            username: "hsynhcglu",
+            fullname: "Huseyin Hacıoğlu",
+            avatar: "https://avatars.githubusercontent.com/u/32619394?v=4",
+        },
+        {
+            id: 2,
+            username: "hsynhcglu2",
+            fullname: "Huseyin Hacıoğlu2",
+            avatar: "https://avatars.githubusercontent.com/u/32619394?v=4",
+        }
+    ],
 }
 
 const auth = createSlice({
